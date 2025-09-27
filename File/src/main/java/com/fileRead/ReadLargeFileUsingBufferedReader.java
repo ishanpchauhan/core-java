@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class ReadLargeFileUsingBufferedReader {
 	public static void main(String[] args) throws FileNotFoundException {
-      String path = "C:\\v_prakash\\study\\workspaces\\core java\\Test\\src\\test.txt";
+      String path = "C:\\Users\\praka\\OneDrive\\v_prakash\\study\\workspace\\core-java\\File\\src\\main\\resources\\test.txt";
       FileReader fr = new FileReader(path);
 
       try {

@@ -9,7 +9,8 @@ import java.util.stream.Stream;
 
 public class ReadLargeFileUsingStreams {
 	public static void main(String[] args) {
-		String filePath = "C:\\v_prakash\\study\\workspaces\\core java\\Test\\src\\test.txt";
+		String filePath = "C:\\Users\\praka\\OneDrive\\v_prakash\\study\\workspace\\core-java\\File\\src\\main\\resources\\test.txt";
+
 		Path path = Paths.get(filePath);
 
 		try (Stream lines = Files.lines(path)) {
