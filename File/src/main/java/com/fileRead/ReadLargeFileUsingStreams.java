@@ -14,9 +14,7 @@ public class ReadLargeFileUsingStreams {
 		Path path = Paths.get(filePath);
 
 		try (Stream lines = Files.lines(path)) {
-			lines.forEach((line) -> {
-				System.out.println(line);
-			});
+			lines.forEach(System.out::println);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

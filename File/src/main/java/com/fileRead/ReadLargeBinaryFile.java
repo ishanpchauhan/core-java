@@ -3,10 +3,9 @@ package com.fileRead;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 public class ReadLargeBinaryFile {
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args) throws IOException {
 		String filePath = "C:\\Users\\praka\\OneDrive\\v_prakash\\study\\workspace\\core-java\\File\\src\\main\\resources\\test.txt";
 
 		try (BufferedInputStream br = new BufferedInputStream(new FileInputStream(filePath))) {
